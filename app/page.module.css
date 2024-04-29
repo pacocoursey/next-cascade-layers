@@ -1,0 +1,11 @@
+@layer test.utils {
+  .test {
+    color: blue;
+  }
+}
+
+@layer test.components {
+  .test.test.test {
+    color: red;
+  }
+}

@@ -1,0 +1,11 @@
+@layer test.utils {
+  .root {
+    --these-styles-dont-matter: 0;
+  }
+}
+
+@layer test.components {
+  .root {
+    --these-styles-dont-matter: 1;
+  }
+}
