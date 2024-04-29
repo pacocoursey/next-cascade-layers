@@ -1,11 +1,16 @@
-@layer test.utils {
-  .test {
-    color: blue;
-  }
+.test {
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 @layer test.components {
   .test.test.test {
     color: red;
+  }
+}
+
+@layer test.utils {
+  .test {
+    color: blue;
   }
 }

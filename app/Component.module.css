@@ -1,11 +1,13 @@
+/* The styles here don't matter, the main point is that we reference CSS Cascade Layers */
+
 @layer test.utils {
   .root {
-    --these-styles-dont-matter: 0;
+    --tmp: 0;
   }
 }
 
 @layer test.components {
   .root {
-    --these-styles-dont-matter: 1;
+    --tmp: 0;
   }
 }
